@@ -1,15 +1,4 @@
-name: Jay Nakum
-email: contact.jaynakum@gmail.com
-
 title: FOSMods
 description: Free and Open Source Mods
-baseurl: "/"
-url: "https://fosmods.github.io"
 
 theme: jekyll-theme-cayman
-
-github:
-  owner_name: Jay Nakum
-  repository_url: "https://github.com/FOSMods"
-
-footer: null
