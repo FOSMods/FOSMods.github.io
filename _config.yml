@@ -4,6 +4,11 @@ email: contact.jaynakum@gmail.com
 description: Free and Open Source Mods
 baseurl: "/"
 url: "https://fosmods.github.io"
+
+logo_url: ./assets/fosmods.png
+
 twitter_username: JayNakum_
 github_username: FOSMods
+
 theme: jekyll-theme-cayman
+darkmode: true
