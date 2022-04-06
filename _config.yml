@@ -7,3 +7,6 @@ baseurl: "/"
 url: "https://fosmods.github.io"
 
 theme: jekyll-theme-cayman
+github:
+
+is_project_page: true
