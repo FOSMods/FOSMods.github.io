@@ -11,5 +11,3 @@ theme: jekyll-theme-cayman
 github:
   owner_name: Jay Nakum
   repository_url: "https://github.com/FOSMods"
-
-is_project_page: true
