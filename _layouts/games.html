@@ -1,44 +1,50 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
+<html lang="{{ site.lang | default: " en-US" }}">
 
-{% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">FOSMods / Games</h1>
-    </header>
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+    type="text/css" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+</head>
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+<body>
 
-      <footer class="site-footer">
-        <h3>Your favourite game isn't here? <a href="https://github.com/FOSMods/FOSMods/issues/new?assignees=&labels=Game+Request&template=game-request.md&title=Game+Request" class="btn">Request Now!</a></h3>>
-        <h1>Connect</h1>
-        <span class="site-footer-credits">
-            <a href="https://github.com/FOSMods" target="_blank">
-                <img alt="GitHub"
-                    src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-            </a>
-            <a href="https://www.twitter.com/JayNakum_" target="_blank">
-                <img alt="Twitter"
-                    src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-            </a>
-            <a href="mailto:contact.jaynakum@gmail.com" target="_blank">
-                <img alt="Gmail"
-                    src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-            </a>
-        </span>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">FOSMods / Games</h1>
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+
+    <footer class="site-footer">
+      <h3>Your favourite game isn't here? <a
+          href="https://github.com/FOSMods/FOSMods/issues/new?assignees=&labels=Game+Request&template=game-request.md&title=Game+Request"
+          class="btn">Request Now!</a></h3>>
+      <h1>Connect</h1>
+      <span class="site-footer-credits">
+        <a href="https://github.com/FOSMods" target="_blank">
+          <img alt="GitHub"
+            src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+        <a href="https://www.twitter.com/JayNakum_" target="_blank">
+          <img alt="Twitter"
+            src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+        </a>
+        <a href="mailto:contact.jaynakum@gmail.com" target="_blank">
+          <img alt="Gmail"
+            src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+        </a>
+      </span>
     </footer>
-    </main>
-  </body>
+  </main>
+</body>
+
 </html>
