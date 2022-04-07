@@ -19,14 +19,13 @@
   
   <header class="page-header" role="banner">
     <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <a href="https://github.com/FOSMods/{{ page.title }}">Contribute</a>
+    <a href="{{ 'https://github.com/FOSMods/' | append: page.title }}">Contribute</a>
   </header>
   
   <main id="content" class="main-content" role="main">
     {{ content }}
 
     <footer class="site-footer">
-      <h2><a href="https://github.com/FOSMods/Minecraft">Contribute</a> your own mod.</h2>
       <h1>Connect</h1>
       <span class="site-footer-credits">
         <a href="https://github.com/FOSMods" target="_blank">
