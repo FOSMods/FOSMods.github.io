@@ -3,6 +3,6 @@ description: Free and Open Source Mods
 
 theme: jekyll-theme-cayman
 
-# github:
-#   repository_url: 
-#   # zip_url: http://example.com/download.zip
+github:
+  repository_url: https://github.com/FOSMods
+  # zip_url: http://example.com/download.zip
